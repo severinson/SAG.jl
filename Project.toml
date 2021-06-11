@@ -1,0 +1,13 @@
+name = "SAG"
+uuid = "b8eb5f15-4717-47ec-b8a0-405cbe12bc8c"
+authors = ["Albin Severinson <albin@severinson.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
