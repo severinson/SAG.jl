@@ -1,4 +1,4 @@
-# SAG
+# SAG.jl
 
 [Stochastic average gradient](https://arxiv.org/abs/1309.2388) (SAG) method for tracking a gradient made up of the sum of several sub-gradients. Combining SAG with an iterative method for first-order optimization method (e.g., gradient descent) results in a variance-reduced method for finite-sum optimization, e.g., empirical risk minimization. Because it's a variance-reduced method, the iterate converges to the optimum even when the gradients used to update the iterate are stochastic. See below for an example.
 
